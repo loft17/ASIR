@@ -1,0 +1,42 @@
+<!-- Se abre declara la primera linea donde indicamos la version de xml, codificacion y si es necesario otro
+        xml para su interpretacion. AÃ±adimos la codificacion iso-8859-1 para poder agregar tildes a los nombres
+        o la "ñ" -->
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?> 
+
+<!-- Declaramos el tipo de dumento que vamos a crear, en este caso es una agenda. -->
+<!DOCTYPE agenda>
+
+    <!-- Abrimos la etiqueta "agenda", en donde guardaremos la informacion de todos
+            nuestros contactos-->
+    <agenda>
+
+        <!-- Abrimos la etiqueta "contacto" donde contendremos la informacion relativa
+                a este. -->
+        <contacto>
+
+            <!-- Abrimos la etiqueta "informacion", ya que vamos a contener dentro d esta,
+                    toda la informacion del contacto -->
+            <informacion>
+                <nombre>Adela</nombre>
+                <apellidos>Villaseñor Ledesma</apellidos>
+                <sexo>mujer</sexo>
+                <direccion>Ventanilla de Beas 93, Torremocha de Jarama</direccion>
+                <dni>98765432X</dni>
+                <edad dia="18" mes="Mayo" año="1977"></edad>
+            <!-- Cerramos la etiqueta informacion -->
+            </informacion>
+             
+            <!-- Abrimos la etiqueta telefonos para conetenerlos segun el tipo 
+                    casa, movil, trabajo -->
+            <telefonos>
+                <casa>910000000</casa>
+                <movil>600000000</movil>
+                <trabajo>902000000</trabajo>
+            <!-- Cerramos la etiqueta telefonos -->
+            </telefonos>
+
+        <!-- Ceramos la etiqueta contacto -->
+        </contacto>
+    
+    <!-- Cerramos la etiqueta agenda -->
+    </agenda>
