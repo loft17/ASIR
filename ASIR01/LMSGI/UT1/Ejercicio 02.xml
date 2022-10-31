@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Se abre declara la primera linea donde indicamos la version de xml, codificacion y si es necesario otro
-        xml para su interpretacion. Añadimos la codificacion iso-8859-1 para poder agregar tildes a los nombres
-        o la "�" -->
-<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?> 
+        xml para su interpretacion. AÃ±adimos la codificacion iso-8859-1 para poder agregar tildes a los nombres
+        o la "ñ" -->
+
 
 <!-- Declaramos el tipo de dumento que vamos a crear, en este caso es una agenda. -->
 <!DOCTYPE agenda>
@@ -18,11 +19,11 @@
                     toda la informacion del contacto -->
             <informacion>
                 <nombre>Adela</nombre>
-                <apellidos>Villase�or Ledesma</apellidos>
+                <apellidos>Villaseñor Ledesma</apellidos>
                 <sexo>mujer</sexo>
                 <direccion>Ventanilla de Beas 93, Torremocha de Jarama</direccion>
                 <dni>98765432X</dni>
-                <edad dia="18" mes="Mayo" a�o="1977"></edad>
+                <edad dia="18" mes="Mayo" año="1977"></edad>
             <!-- Cerramos la etiqueta informacion -->
             </informacion>
              
