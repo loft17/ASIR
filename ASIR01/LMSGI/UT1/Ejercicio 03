@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?> 
+<!-- Se abre declara la primera linea donde indicamos la version de xml, codificacion y si es necesario otro
+        xml para su interpretacion. Añadimos la codificacion iso-8859-1 para poder agregar tildes a los nombres
+        o la "ñ" -->
+        
+<!-- Declaramos el tipo de dumento que vamos a crear, en este caso es una agenda. -->
+<!DOCTYPE librorecetas>
+    
+    <!-- Abrimos la etiqueta "receta" para guardar dentro toda la informacion
+            referencte para . -->
+    <receta>
+
+        <!-- Creamos las etiquetas con el nombre del plato y el numero de comensales de la receta -->
+        <plato>Sopa de cebolla</plato>
+        <comensales>4</comensales>
+
+        <ingrediente nombre='cebollas' cantidad='3' unidad='Kg'></ingrediente>
+        <ingrediente nombre='zanahorias' cantidad='3' unidad='Kg'></ingrediente>
+        <ingrediente nombre='caldo de carne' cantidad='2' unidad='l'></ingrediente>
+        <ingrediente nombre='mantequilla' cantidad='300' unidad='gr'></ingrediente>
+        <ingrediente nombre='harina' cantidad='3' unidad='cucharada'></ingrediente>
+        <ingrediente nombre='queso emmental suizo o gruyére rallado' cantidad='250' unidad='gr'></ingrediente>
+        <ingrediente nombre='Pan de molde tostado en rebanadas'></ingrediente>
+        <ingrediente nombre='Tomillo'></ingrediente>
+        <ingrediente nombre='Comino molido'></ingrediente>
+        <ingrediente nombre='Pimienta'></ingrediente>
+        <ingrediente nombre='Laurel' cantidad='1' unidad='hoja' ></ingrediente>
+
+        <!-- Abrimos la etiqueta instrucciones para explicar paso a paso como se debe cocinas
+                la receta. -->
+        <instrucciones>
+        </instrucciones>
+            
+    </receta>
