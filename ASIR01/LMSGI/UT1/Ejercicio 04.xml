@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?> 
+<!-- Se abre declara la primera linea donde indicamos la version de xml, codificacion y si es necesario otro
+        xml para su interpretacion. Añadimos la codificacion iso-8859-1 para poder agregar tildes a los nombres
+        o la "ñ" -->
+        
+<!-- Declaramos el tipo de dumento que vamos a crear, en este caso es una agenda. -->
+<!DOCTYPE alumnos>
+
+<alumnos>
+
+</alumnos>
