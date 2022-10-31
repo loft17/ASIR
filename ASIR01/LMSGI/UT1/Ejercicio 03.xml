@@ -29,8 +29,16 @@
         <!-- Abrimos la etiqueta instrucciones para explicar paso a paso como se debe cocinas
                 la receta. -->
         <instrucciones>
+                <paso orden='1' detalles='Pelar y partir las cebollas en rodajas finas.'></paso>
+                <paso orden='2' detalles='Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.'></paso>
+                <paso orden='3' detalles='Añadir la harina sin dejar de remover.'></paso>
+                <paso orden='4' detalles='Ponerlo en una cazuela con el caldo, el tomillo, el laurel y el resto de especias.'></paso>
+                <paso orden='5' detalles='Cocer a fuego fuerte 5 minutos.'></paso>
+                <paso orden='6' detalles='Dejar cocer a fuego lento durante unos 15 minutos.'></paso>
+                <paso orden='7' detalles='Poner las rebanadas de pan de molde tostadas encima.'></paso>
+                <paso orden='8' detalles='Espolvorear el queso y gratinar al horno durante 30 minutos.'></paso>
+                <paso orden='9' detalles=''></paso>
+                <paso orden='10' detalles=''></paso>
         </instrucciones>
             
     </receta>
-
-# yrsd
