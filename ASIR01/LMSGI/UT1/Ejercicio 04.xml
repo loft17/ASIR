@@ -6,6 +6,16 @@
 <!-- Declaramos el tipo de dumento que vamos a crear, en este caso es una agenda. -->
 <!DOCTYPE alumnos>
 
-<alumnos>
+<!-- Abrimos la etiqueta "cfgs_dam" para alojar todo lo referente al "ciclo formativo DAM" -->
+<cfgs_dam>
+    <!-- Abrimos la etiqueta para guardar la informacion del modulo de CFGS -->
+    <modulo nombre="Lenguajes de Marcas y Sistemas de Gestión de Información"></modulo>
 
-</alumnos>
+        <!-- Declaramos las etiquetas con la informacion del curso -->
+        <horas_semanales>4</horas_semanales>
+        <caracter>obligatorio</caracter>
+        <fecha_inicio dia="24" mes="octubre" año="2022">
+        <fecha_fin dia="30" mes="junio" año="2023">
+
+</cfgs_dam>
+<!-- FIN -->
