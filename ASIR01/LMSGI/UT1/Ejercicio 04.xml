@@ -34,12 +34,12 @@
             <datos_academicos nota="apto" faltas_asistencia=""><datos_academicos>
         </alumno>
 
-                <alumno nombre="NOMBRE" apellidos="APELLIDOS">
+        <alumno nombre="Antonio" apellidos="Hernando">
             <!-- Datos personales del alumno -->
-            <datos_personales dni="DNI" telefono="TELEFONO" email="email"></datos_personales>
-            <direccion calle="CALLE" numero="NUMERO" ciudad="CIUDAD" codpostal="CODIGOPOSTAL"></direccion>
+            <datos_personales dni="4444444A" telefono="9145678900" email="antonio.hernando@gmail.com"></datos_personales>
+            <direccion calle="Avd. Madrid" numero="5" ciudad="Aranjuez" codpostal="28401"></direccion>
             <!-- Datos academicos -->
-            <datos_academicos nota="NOTA" faltas_asistencia="FALTAS"><datos_academicos>
+            <datos_academicos nota="apto" faltas_asistencia="10"><datos_academicos>
         </alumno>
 </cfgs_dam>
 <!-- FIN -->
