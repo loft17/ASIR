@@ -18,7 +18,23 @@
         <fecha_fin dia="30" mes="junio" año="2023">
 
         <!-- Creamos la etiqueta para alojar la información referente a un -->
+        <alumno nombre="Ana" apellidos="Fernández Gutiérrez">
+            <!-- Datos personales del alumno -->
+            <datos_personales dni="16965696L" telefono="656566555" email="ana.fdezgtrrez@hotmail.com"></datos_personales>
+            <direccion calle="C/ El Percebe" numero="13" ciudad="Santander" codpostal="39302"></direccion>
+            <!-- Datos academicos -->
+            <datos_academicos nota="" faltas_asistencia=""><datos_academicos>
+        </alumno>
+
         <alumno nombre="NOMBRE" apellidos="APELLIDOS">
+            <!-- Datos personales del alumno -->
+            <datos_personales dni="DNI" telefono="TELEFONO" email="email"></datos_personales>
+            <direccion calle="CALLE" numero="NUMERO" ciudad="CIUDAD" codpostal="CODIGOPOSTAL"></direccion>
+            <!-- Datos academicos -->
+            <datos_academicos nota="NOTA" faltas_asistencia="FALTAS"><datos_academicos>
+        </alumno>
+
+                <alumno nombre="NOMBRE" apellidos="APELLIDOS">
             <!-- Datos personales del alumno -->
             <datos_personales dni="DNI" telefono="TELEFONO" email="email"></datos_personales>
             <direccion calle="CALLE" numero="NUMERO" ciudad="CIUDAD" codpostal="CODIGOPOSTAL"></direccion>
