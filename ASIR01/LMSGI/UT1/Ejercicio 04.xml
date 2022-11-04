@@ -26,12 +26,12 @@
             <datos_academicos nota="" faltas_asistencia=""><datos_academicos>
         </alumno>
 
-        <alumno nombre="NOMBRE" apellidos="APELLIDOS">
+        <alumno nombre="Pepito" apellidos="Grillo">
             <!-- Datos personales del alumno -->
-            <datos_personales dni="DNI" telefono="TELEFONO" email="email"></datos_personales>
-            <direccion calle="CALLE" numero="NUMERO" ciudad="CIUDAD" codpostal="CODIGOPOSTAL"></direccion>
+            <datos_personales dni="98765432H" telefono="789654321" email="yhyh@yahoo.com"></datos_personales>
+            <direccion calle="Avd. El Pez" numero="5" ciudad="Suances" codpostal="39401"></direccion>
             <!-- Datos academicos -->
-            <datos_academicos nota="NOTA" faltas_asistencia="FALTAS"><datos_academicos>
+            <datos_academicos nota="apto" faltas_asistencia=""><datos_academicos>
         </alumno>
 
                 <alumno nombre="NOMBRE" apellidos="APELLIDOS">
