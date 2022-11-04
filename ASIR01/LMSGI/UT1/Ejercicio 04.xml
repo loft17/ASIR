@@ -17,5 +17,30 @@
         <fecha_inicio dia="24" mes="octubre" año="2022">
         <fecha_fin dia="30" mes="junio" año="2023">
 
+        <!-- Creamos la etiqueta para alojar la información referente a un -->
+        <alumno nombre="NOMBRE" apellidos="APELLIDOS">
+
+            <!-- Datos personales del alumno -->
+            <datos_personales>
+                <dni>DNI</dni>
+                <telefono>TELEFONO</telefono>
+                <email>EMAIL</email>
+                <direccion>
+                    <calle>CALLE</calle>
+                    <numero>NUMERO</numero>
+                    <ciudad>CIUDAD</ciudad>
+                    <codpostal>CODIGOPOSTAL</codpostal>
+                </direccion>
+            </datos_personales>
+
+            <!-- Creamos la etiqueta "datos_academicos" para guardar la información
+                    academica del alumno -->
+            <datos_academicos>
+                <nota>NOTA</nota>
+                <faltas_asistencia>FALTAS</faltas_asistencia>
+            <datos_academicos>
+
+        </alumno>
+
 </cfgs_dam>
 <!-- FIN -->
