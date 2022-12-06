@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!-- Declaramos nuestro html5 -->
+
+<!-- Abrimos la etiqueta html en onde se alojara toda la informacion de la web-->
+<html>
+    <!-- Declaramos head para guardar los metadatos de la web -->
+    <head>
+        <meta charset="utf-8" />
+        <title>Reservas Hotel</title>
+        <link rel="stylesheet" href="style.css" />
+        <!--
+            <meta http-equiv="refresh" content="1">
+        -->
+        
+
+
+
+    </head>
+
+    <!-- Declaramos body para guardarel contenido de la web -->
+    <body>
+        <div class="formulario">
+            <form action="/">
+
+                <div class="banner">
+                    <h1>Datos de la Reserva</h1>
+                </div>
+
+                <div class="item">
+                    <p>Name</p>
+                    <div class="name-item">
+                        <input type="text" name="nombre" placeholder="Nombre" />
+                        <input type="text" name="apellido" placeholder="Apellido" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <p>Contacto</p>
+                    <div class="name-item">
+                    <input type="text" name="telefono" placeholder="Telefono" />
+                    <input type="text" name="email" placeholder="Email" />
+                    </div>
+                </div>
+
+                <div class="item-table-info">
+                    <p>Fecha entrada</p>
+                    <p>Fecha salida</p>
+                </div>
+
+                <div class="item-table">
+                    <input type="date" name="datestart" required/>
+                    
+                    <input type="date" name="dateend" required/>
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+
+                <div class="item-table-info">
+                    <p>Numero de noches</p>
+                    <p>Tipo de habitación</p>
+                </div>
+
+                <div class="item-table">
+                    <input type="text" name="numbernight" placeholder="Numero de noches" />
+
+                    <select name="typeroom" required>
+                        <option value="1">Simple</option>
+                        <option value="2">Doble</option>
+                        <option value="3">Matrimonio</option>
+                    </select>
+                </div>
+
+                <div class="item">
+                    <p>Extas</p>
+                </div>
+
+                <div class="item-checkbox">
+                    Desayuno: <input type="checkbox" name"cbbreakfast">
+                    Comida: <input type="checkbox" name"cblaunch">
+                    Cena: <input type="checkbox" name"cbdinner">
+                    Cama supletoria: <input type="checkbox" name"cbbed">
+                
+                </div>
+
+                <div class="item">
+                    <p>Comentarios</p>
+                    <textarea rows="3"></textarea>
+                </div>
+
+                <div class="btn-block">
+                    <input type="reset" value="Limpiar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+
+        </div>
+    </body>
+
+    
+</html>
