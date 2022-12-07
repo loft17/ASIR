@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,300italic,400italic");
+
+body, div, p, a {
+    min-height: 100%;    
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    margin-bottom: auto;
+    color: rgb(99, 99, 99);
+    }
+
+.titulo {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #000;
+}
+
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
+
+.infopersonal {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col0 {
+    margin-bottom: 0 !important;
+}
+
+.col1 {
+    margin-bottom: 3rem !important;
+}
+
+.col2 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.about{
+    text-align: justify;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 12px);
+    align-items: left; 
+}
+
+.item-table-info {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 12px);
+    align-items: left; 
+}
+
+.infoname {
+    font-weight: bold;
+
+}
+
+.infodata {
+    display: flex;
+    width: calc(100% - 12px);
+    align-items: left;
+    margin-left: 10px;
+    
+}
+
