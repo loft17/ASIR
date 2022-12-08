@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,300italic,400italic");
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    background-color: rgb(231, 231, 231);
+    color: rgb(99, 99, 99);
+    }
+
+#container {
+    max-width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 #999999; 
+}
+
+#header {
+    color: #a1a1ab;
+    padding: 0px 10px 0px 10px;
+    line-height: 50px;
+    background-color: #fff;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.title1 {
+    font-size: 50px;
+}
+
+.receta {
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    text-decoration: underline;
+
+}
+
+.subtitulos {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#menu {
+    float:none;
+    background-color: #fff;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+#contenido {
+    float:none;
+    background-color: #fff;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 10px;
+}
+
+#principal {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 12px);
+    align-items: left; 
+}
+
+#ul, li {
+    list-style-type: square;
+}
+
+
+#a {
+    color: #000;
+}
+
+ul li {
+
+    padding: 5px;
+    margin-left: 35px
+}
+
+ul {
+    background: #ffffff;
+    padding: 20px;
+}
+
+img.mediana{
+    width: 300px;
+    border-radius: 2px;
+  }
